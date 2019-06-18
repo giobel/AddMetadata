@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command AddMetadata</Text>
+    <Description>Some description for AddMetadata</Description>
+    <Assembly>AddMetadata.dll</Assembly>
+    <FullClassName>AddMetadata.Command</FullClassName>
+    <ClientId>da315c14-ce03-4521-9572-f6a64ffa8fbf</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application AddMetadata</Name>
+    <Assembly>AddMetadata.dll</Assembly>
+    <FullClassName>AddMetadata.App</FullClassName>
+    <ClientId>0cf05bd4-71b3-435b-997a-2c6fbae7f0d6</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
